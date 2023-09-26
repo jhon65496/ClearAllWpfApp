@@ -65,6 +65,8 @@ namespace SimpleExampleWpfApp.ViewModels
         {   
             groupsService.DeleteAll();
             Debug.WriteLine("MainWindowViewModel--OnDeleteAllCommandExecuted(object p)");
+             // Debug.WriteLine($"{Groups.})");
+            // 
         }
 
         #endregion
